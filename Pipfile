@@ -7,6 +7,7 @@ name = "pypi"
 python-dotenv = "*"
 pylast = "*"
 requests = "*"
+python-twitter = "*"
 
 [dev-packages]
 

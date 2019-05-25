@@ -1,4 +1,29 @@
-# You have to have your own unique two values for API_KEY and API_SECRET
-# Obtain yours from https://www.last.fm/api/account/create for Last.fm
-API_KEY = "b25b959554ed76058ac220b7b2e0a026"  # this is a sample key
-API_SECRET = "425b55975eed76058ac220b7b4e8a054"
+# WeekFM
+
+Twitta seus 5 artistas mais tocados na semana.
+
+Roda localmente, com um schedule shell. 
+
+
+## Tecnologias
+Desenvolvido em python.
+
+Utiliza [pylast](https://github.com/pylast/pylast) e [python-twitter](https://github.com/bear/python-twitter).
+
+## Configurando
+
+Você deve ter as duas chaves da API do [Last.fm](https://www.last.fm/pt/home), 
+para obte-las acesse a [Api](https://www.last.fm/api/account/create) do Last.fm 
+
+Clone o projeto.
+
+Após conseguir as chaves, configure suas informações em .env utilizando ` cp .env.example .env `
+
+Para rodar o projeto ative o ambiente virtual ` pipenv shell ` (Caso não tenha o pipenv instalado, instale-o)
+e execute ` python weekfm.py ` 
+
+(Schedule ainda não implementado)
+
+## Contribuindo 
+
+Abra uma issue, fork o repositório e mande um pull request
