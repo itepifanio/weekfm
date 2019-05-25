@@ -4,7 +4,6 @@ Twitta seus 5 artistas mais tocados na semana.
 
 Roda localmente, com um schedule shell. 
 
-
 ## Tecnologias
 Desenvolvido em python.
 
@@ -13,7 +12,10 @@ Utiliza [pylast](https://github.com/pylast/pylast) e [python-twitter](https://gi
 ## Configurando
 
 Você deve ter as duas chaves da API do [Last.fm](https://www.last.fm/pt/home), 
-para obte-las acesse a [Api](https://www.last.fm/api/account/create) do Last.fm 
+para obte-las acesse a [API](https://www.last.fm/api/account/create) do Last.fm 
+
+Também deve-se ter as chaves da API do twitter,
+pode-se obte-las [aqui](https://developer.twitter.com/en/apps)
 
 Clone o projeto.
 
